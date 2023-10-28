@@ -348,7 +348,7 @@
 
     
     <!-- Custom Stuff -->
-    <include>
+    <!-- <include>
       <name>mb_round_buoy_orange_custom</name>
       <pose>-520 180 0 0 1.57 0</pose>
       <uri>https://fuel.gazebosim.org/1.0/openrobotics/models/mb_round_buoy_orange</uri>
@@ -385,7 +385,7 @@
           </wave>
         </wavefield>
       </plugin>
-    </include>
+    </include> -->
 
     <include>
       <name>green_buoy</name>
@@ -625,7 +625,7 @@
 
     <include>
       <name>black_ball</name>
-      <pose>-560 180 0 1.5 0 -2.67</pose>
+      <pose>-555 180 0 1.5 0 -2.67</pose>
       <uri>models/black_ball</uri>
 
       <plugin name="vrx::PolyhedraBuoyancyDrag"
@@ -670,7 +670,7 @@
       <pose>0 0 0 0 0 0</pose>
       <uri>coast_waves</uri>
     </include>
-
+<!-- 
     <include>
       <name>mb_marker_buoy_red</name>
       <pose>-528 191 0 0 0 0</pose>
@@ -829,7 +829,7 @@
           <topic>/vrx/wavefield/parameters</topic>
         </wavefield>
       </plugin>
-    </include>
+    </include> -->
 
     <!-- The posts for securing the WAM-V -->
     <include>
